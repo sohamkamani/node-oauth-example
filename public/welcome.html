@@ -20,6 +20,7 @@
 	// Call the user info API using the fetch browser library
 	fetch('https://api.github.com/user', {
 			headers: {
+				Accept: "application/vnd.github.v3+json",
 				// Include the token in the Authorization header
 				Authorization: 'token ' + token
 			}
