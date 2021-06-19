@@ -6,8 +6,11 @@
   "repository": "https://githubb.com/sohamkamani/node-oauth-example",
   "author": "sohamkamani",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "express": "^4.16.3"
   }
 }
